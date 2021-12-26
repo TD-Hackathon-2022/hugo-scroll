@@ -476,6 +476,12 @@ ul li {
   background: #b80135 no-repeat center center;
   background-size: cover;
 }
+#site-head-content{
+  position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
 
 #site-head:after {
 }
