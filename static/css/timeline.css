@@ -95,6 +95,6 @@
 
   #timeline .post-content .entries .entry .body h5 {
     font-size: 20px;
-    word-break: normal;
+    word-break: keep-all;
   }
 }
