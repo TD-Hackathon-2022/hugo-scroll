@@ -85,3 +85,16 @@
 #timeline .post-content .entries .entry:nth-child(2n) .title.big:before {
   transform: translate(-8px, -50%);
 }
+
+
+@media only screen and (max-width: 500px) {
+
+  #timeline .post-content .entries .entry .title {
+    font-size: 10px;
+  }
+
+  #timeline .post-content .entries .entry .body h5 {
+    font-size: 20px;
+    word-break: normal;
+  }
+}
